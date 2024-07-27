@@ -1,0 +1,39 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+table, th, td {
+    border: 1px solid black;
+}
+th, td {
+    padding: 15px;
+    text-align: left;
+}
+ul.pagination {
+    display: flex;
+    list-style-type: none;
+    padding: 20px;
+    margin-left: 700px;
+  
+    
+}
+ul.pagination li {
+    margin: 0 5px;
+   
+}
+ul.pagination li a {
+    text-decoration: none;
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    color: black;
+}
+ul.pagination li a.active {
+    background-color: #007BFF;
+    color: white;
+    border: 1px solid #007BFF;
+}
+.search
+{
+   float: right;
+   margin: 20px;
+}
